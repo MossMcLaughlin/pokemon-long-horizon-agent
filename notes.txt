@@ -1,0 +1,37 @@
+exiting house
+- right 1 tile. up 5 tiles right 3 tiles
+
+talk to mom 
+- down 3 tiles. left one tile. ensure facing left. press a for dialog. 
+
+finish dialouge. 
+Advance with a 5 times 
+
+exit house 
+down 3 tiles. left 3 tiles . Down 1 tile (exits house, wait for transition if needed).
+
+Go to grass 
+right 5 tiles. up 5 tiles.
+
+Now we have the animation of oak approching and then dialog. advance dialog with a 6 times. Wait for animation retuning to the lab. Advance dialog 18 times with a 
+
+To select our pokemon. Lets look at all three then select charmander. We want to move one tile down. face up. press a once to interact (make sure we wait long enough for the animation). press a 3 more times to advance the dialouge. press down. press a to select no. 
+
+Now look at the next pokemon. Go right one tile. face up. press a once to interact. press a 3 more times to advance the dialouge. press down. press a to select no.  
+
+Now look at the next pokemon. Go right one tile. face up. press a once to interact. press a 3 more times to advance the dialouge. press down. press a to select no.  
+
+Selecting charmander. Left 2 tiles. Face up. press a to interact. press a 3 more times to advance dialouge. Press a to select charmander
+
+Press a 3 more times to advance dialouge. Press a to select 'YES' and give charmander a nickname. 
+
+Enter the nickname. - this requires reading and understand the text input field, typing some name and pressing start or navigating to end. 
+
+   
+
+
+
+
+
+
+

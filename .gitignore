@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# Copyrighted game data and emulator persistence must remain local.
+*.gb
+*.gbc
+*.rom
+*.sav
+*.ram
+*.rtc
+*.state
+roms/
+saves/
+
+# Generated run artifacts.
+runs/
+recordings/
+screenshots/
+

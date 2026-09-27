@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pokemon-long-horizon-agent"
+version = "0.1.0"
+description = "A typed, observable environment for long-horizon agents playing Pokemon Red or Blue through PyBoy."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Moss Guy" }]
+dependencies = [
+  "pydantic>=2.9,<3",
+  "pyboy>=2.7,<3",
+  "rich>=13.9,<15",
+  "typer>=0.15,<1",
+  "pillow>=12.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "mypy>=1.13,<2",
+  "pytest>=8.3,<10",
+  "ruff>=0.9,<1",
+]
+
+[project.scripts]
+pokemon-agent = "pokemon_agent.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+files = ["src/pokemon_agent"]
+
+[[tool.mypy.overrides]]
+module = ["pyboy", "pyboy.*"]
+follow_imports = "skip"
+ignore_missing_imports = true
